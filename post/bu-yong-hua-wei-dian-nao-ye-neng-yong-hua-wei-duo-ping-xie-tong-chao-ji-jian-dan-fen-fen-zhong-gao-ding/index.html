@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Debian下安装CURL失败的解决方案 | 老刘的日常 - OldLiu.cc</title>
+<title>不用华为电脑也能用华为多屏协同，超级简单分分钟搞定！ | 老刘的日常 - OldLiu.cc</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,13 +18,16 @@
 
 
 
-    <meta name="description" content="Debian下需要安装curl程序可能会出现命令无效，结果但是通过
-apt-get install curl
-
-出现安装错误，看了很多资料，都是建议建议先做
-apt-get update
-apt-get upgrade
-但是执行了，还是不行..." />
+    <meta name="description" content="
+ 
+硬件需求：
+1.一台笔记本或台式机（带有蓝牙、wifi功能）
+2.一台华为手机（EMUI10以上操作系统）
+软件需求：
+1.华为官方的电脑管家
+2.华为电脑管家内的伪认证替换文件（Util.dll）
+实现步骤：
+第一步，下载上方的两个..." />
     <meta name="keywords" content="教程" />
   </head>
   <body>
@@ -112,29 +115,41 @@ apt-get upgrade
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">Debian下安装CURL失败的解决方案</h2>
+            <h2 class="post-title">不用华为电脑也能用华为多屏协同，超级简单分分钟搞定！</h2>
             <div class="post-date">2020-09-13</div>
             
-              <div class="feature-container" style="background-image: url('https://oldliuweb.github.io/post-images/debian-xia-an-zhuang-curl-shi-bai-de-jie-jue-fang-an.jpg')">
+              <div class="feature-container" style="background-image: url('https://oldliuweb.github.io/post-images/bu-yong-hua-wei-dian-nao-ye-neng-yong-hua-wei-duo-ping-xie-tong-chao-ji-jian-dan-fen-fen-zhong-gao-ding.jpg')">
               </div>
             
             <div class="post-content" v-pre>
-              <p>Debian下需要安装curl程序可能会出现命令无效，结果但是通过</p>
-<p><code>apt-get install curl</code></p>
-<!-- more -->
-<p>出现安装错误，看了很多资料，都是建议建议先做</p>
-<p><code>apt-get update</code><br>
-<code>apt-get upgrade</code></p>
-<p>但是执行了，还是不行，最后在其他地方看到Debian 9.0以上需要安装</p>
-<p><code>apt-get install sudo</code></p>
-<p>执行了这个之后在执行安装curl就能正常安装了。</p>
-<p>还有一个方法就是先执行</p>
-<p><code>dpkg –configure -a</code></p>
-<p>然后在执行<br>
-<code>apt-get install curl</code></p>
-<!-- more -->
-<p>就可以正常安装了。</p>
-<p>该方法实测有效！</p>
+              <!-- more -->
+<iframe src="//player.bilibili.com/player.html?aid=93216028&amp;bvid=BV1AE41177CL&amp;cid=159154477&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"> </iframe>
+<p><strong>硬件需求：</strong><br>
+1.一台笔记本或台式机（带有蓝牙、wifi功能）<br>
+2.一台华为手机（EMUI10以上操作系统）</p>
+<p><strong>软件需求：</strong><br>
+<a href="https://consumer-tkb.huawei.com/tkbapp/downloadWebsiteService?websiteId=1697397">1.华为官方的电脑管家</a><br>
+<a href="https://www.lanzous.com/i9vurre">2.华为电脑管家内的伪认证替换文件（Util.dll）</a></p>
+<p><strong>实现步骤：</strong><br>
+第一步，下载上方的两个需要的软件<br>
+第二部，安装：安装位置：C:\Program Files\Huawei\PCManager<br>
+第三步，关闭服务，打开 “任务管理器”，一直按M键找到 “MateBookService.exe”，关闭服务。 (如无法关闭，可使用PE执行第四部)<br>
+<img src="https://oldliuweb.github.io/post-images/1599945874919.jpg" alt="" loading="lazy"><br>
+第四步，找到 “华为电脑管家” 的安装位置，将.dll文件替换进去。再打开华为电脑管家。 （如遇替换失败可尝试在PE下替换）<br>
+<img src="https://oldliuweb.github.io/post-images/1599945935152.jpg" alt="" loading="lazy"></p>
+<p>——————————分割线——————————</p>
+<p>使用篇：<br>
+打开华为电脑管家，点击左下方的“我的手机”按钮<br>
+<img src="https://oldliuweb.github.io/post-images/1599945949353.jpg" alt="" loading="lazy"><br>
+<img src="https://oldliuweb.github.io/post-images/1599945964559.jpg" alt="" loading="lazy"><br>
+点击多平协同<br>
+<img src="https://oldliuweb.github.io/post-images/1599945980253.jpg" alt="" loading="lazy"><br>
+点击扫码连接<br>
+<img src="https://oldliuweb.github.io/post-images/1599945993235.jpg" alt="" loading="lazy"><br>
+使用手机自带浏览器扫码后点允许<br>
+<img src="https://oldliuweb.github.io/post-images/1599946004382.jpg" alt="" loading="lazy"><br>
+开始愉快的使用吧</p>
+<p><a href="https://www.youtube.com/watch?v=bzI82_tnuX4&amp;feature=emb_title">YouTube播放链接</a></p>
 
             </div>
             
@@ -149,9 +164,9 @@ apt-get upgrade
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="https://oldliuweb.github.io/post/zhong-guo-yi-dong-zhi-bo-bo-fang-yuan-chao-ji-liu-chang-qing-xi/">
+                <a href="https://oldliuweb.github.io/post/5g-shou-ji-yong-4g-zi-fei-wang-luo-su-du-zha-yang/">
                   <h3 class="post-title">
-                    中国移动直播播放源 超级流畅清晰
+                    5G手机用4G资费网络速度咋样？
                   </h3>
                 </a>
               </div>

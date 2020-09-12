@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://oldliuweb.github.io</id>
     <title>老刘的日常 - OldLiu.cc</title>
-    <updated>2020-09-12T21:18:53.679Z</updated>
+    <updated>2020-09-12T21:27:27.263Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://oldliuweb.github.io"/>
     <link rel="self" href="https://oldliuweb.github.io/atom.xml"/>
@@ -10,6 +10,54 @@
     <logo>https://oldliuweb.github.io/images/avatar.png</logo>
     <icon>https://oldliuweb.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老刘的日常 - OldLiu.cc</rights>
+    <entry>
+        <title type="html"><![CDATA[不用华为电脑也能用华为多屏协同，超级简单分分钟搞定！]]></title>
+        <id>https://oldliuweb.github.io/post/bu-yong-hua-wei-dian-nao-ye-neng-yong-hua-wei-duo-ping-xie-tong-chao-ji-jian-dan-fen-fen-zhong-gao-ding/</id>
+        <link href="https://oldliuweb.github.io/post/bu-yong-hua-wei-dian-nao-ye-neng-yong-hua-wei-duo-ping-xie-tong-chao-ji-jian-dan-fen-fen-zhong-gao-ding/">
+        </link>
+        <updated>2020-09-12T21:22:25.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<iframe src="//player.bilibili.com/player.html?aid=93216028&amp;bvid=BV1AE41177CL&amp;cid=159154477&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"> </iframe>
+<p><strong>硬件需求：</strong><br>
+1.一台笔记本或台式机（带有蓝牙、wifi功能）<br>
+2.一台华为手机（EMUI10以上操作系统）</p>
+<p><strong>软件需求：</strong><br>
+<a href="https://consumer-tkb.huawei.com/tkbapp/downloadWebsiteService?websiteId=1697397">1.华为官方的电脑管家</a><br>
+<a href="https://www.lanzous.com/i9vurre">2.华为电脑管家内的伪认证替换文件（Util.dll）</a></p>
+<p><strong>实现步骤：</strong><br>
+第一步，下载上方的两个需要的软件<br>
+第二部，安装：安装位置：C:\Program Files\Huawei\PCManager<br>
+第三步，关闭服务，打开 “任务管理器”，一直按M键找到 “MateBookService.exe”，关闭服务。 (如无法关闭，可使用PE执行第四部)<br>
+<img src="https://oldliuweb.github.io/post-images/1599945874919.jpg" alt="" loading="lazy"><br>
+第四步，找到 “华为电脑管家” 的安装位置，将.dll文件替换进去。再打开华为电脑管家。 （如遇替换失败可尝试在PE下替换）<br>
+<img src="https://oldliuweb.github.io/post-images/1599945935152.jpg" alt="" loading="lazy"></p>
+<p>——————————分割线——————————</p>
+<p>使用篇：<br>
+打开华为电脑管家，点击左下方的“我的手机”按钮<br>
+<img src="https://oldliuweb.github.io/post-images/1599945949353.jpg" alt="" loading="lazy"><br>
+<img src="https://oldliuweb.github.io/post-images/1599945964559.jpg" alt="" loading="lazy"><br>
+点击多平协同<br>
+<img src="https://oldliuweb.github.io/post-images/1599945980253.jpg" alt="" loading="lazy"><br>
+点击扫码连接<br>
+<img src="https://oldliuweb.github.io/post-images/1599945993235.jpg" alt="" loading="lazy"><br>
+使用手机自带浏览器扫码后点允许<br>
+<img src="https://oldliuweb.github.io/post-images/1599946004382.jpg" alt="" loading="lazy"><br>
+开始愉快的使用吧</p>
+<p><a href="https://www.youtube.com/watch?v=bzI82_tnuX4&amp;feature=emb_title">YouTube播放链接</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5G手机用4G资费网络速度咋样？]]></title>
+        <id>https://oldliuweb.github.io/post/5g-shou-ji-yong-4g-zi-fei-wang-luo-su-du-zha-yang/</id>
+        <link href="https://oldliuweb.github.io/post/5g-shou-ji-yong-4g-zi-fei-wang-luo-su-du-zha-yang/">
+        </link>
+        <updated>2020-09-12T21:20:23.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<p>测试环境：华为Mate30Pro 5G版<br>
+运营商：中国联通 4G冰淇淋套餐<br>
+位置：黑龙江移动大厅</p>
+<iframe src="//player.bilibili.com/player.html?aid=90558950&amp;bvid=BV1n7411w7S2&amp;cid=154655537&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"> </iframe>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[海马体照相馆全体验，两小时草根大变身！]]></title>
         <id>https://oldliuweb.github.io/post/hai-ma-ti-zhao-xiang-guan-quan-ti-yan-liang-xiao-shi-cao-gen-da-bian-shen/</id>
@@ -381,19 +429,6 @@ http://223.110.241.203:6610/gitv/live1/G_KAKU/G_KAKU/<br>
 http://223.110.241.203:6610/gitv/live1/G_JINYING/G_JINYING/<br>
 #EXTINF:-1 ,炫动卡通<br>
 http://223.110.241.203:6610/gitv/live1/G_XUANDONG/G_XUANDONG/</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一键激活windows和office脚本（学习用请勿商业使用）]]></title>
-        <id>https://oldliuweb.github.io/post/kms/</id>
-        <link href="https://oldliuweb.github.io/post/kms/">
-        </link>
-        <updated>2020-09-12T20:35:40.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="kms-cloud">KMS Cloud</h2>
-<p>纯绿色脚本，透明使用，本kms服务长期有效！( ≥ 10年 )无毒绿色bat脚本激活系统！更有手动激活方式教你每一步操作！还可以学习到自己手动搭建KMS服务器的方法！KMS显示是180天，实际上是永久自动续期，相当于永久激活！</p>
-<p>支持系统版本：智能分析Windows XP 后的所有版本！</p>
-<p><a href="https://cangshui.net/-down/-mysh/kms/KMS-Cangshui.net.bat">下载地址</a></p>
-<p>请支持原作者！<a href="http://kms.cangshui.net/">原文来源</a></p>
 ]]></content>
     </entry>
 </feed>
