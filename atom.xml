@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://oldliuweb.github.io</id>
     <title>老刘的日常 - OldLiu.cc</title>
-    <updated>2020-09-12T21:04:03.305Z</updated>
+    <updated>2020-09-12T21:06:28.062Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://oldliuweb.github.io"/>
     <link rel="self" href="https://oldliuweb.github.io/atom.xml"/>
@@ -41,19 +41,10 @@
         <updated>2020-09-12T20:51:15.000Z</updated>
         <summary type="html"><![CDATA[<p>Debian下需要安装curl程序可能会出现命令无效，结果但是通过</p>
 <p><code>apt-get install curl</code></p>
-<p>出现安装错误，看了很多资料，都是建议建议先做</p>
-<p><code>apt-get update</code><br>
-<code>apt-get upgrade</code></p>
-<p>但是执行了，还是不行，最后在其他地方看到Debian 9.0以上需要安装</p>
-<p><code>apt-get install sudo</code></p>
-<p>执行了这个之后在执行安装curl就能正常安装了。</p>
-<p>还有一个方法就是先执行</p>
-<p><code>dpkg –configure -a</code></p>
-<p>然后在执行<br>
-<code>apt-get install curl</code></p>
 ]]></summary>
         <content type="html"><![CDATA[<p>Debian下需要安装curl程序可能会出现命令无效，结果但是通过</p>
 <p><code>apt-get install curl</code></p>
+<!-- more -->
 <p>出现安装错误，看了很多资料，都是建议建议先做</p>
 <p><code>apt-get update</code><br>
 <code>apt-get upgrade</code></p>
