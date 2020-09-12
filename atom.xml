@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://oldliuweb.github.io</id>
     <title>老刘的日常 - OldLiu.cc</title>
-    <updated>2020-09-12T21:30:24.524Z</updated>
+    <updated>2020-09-12T21:37:48.595Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://oldliuweb.github.io"/>
     <link rel="self" href="https://oldliuweb.github.io/atom.xml"/>
@@ -10,6 +10,59 @@
     <logo>https://oldliuweb.github.io/images/avatar.png</logo>
     <icon>https://oldliuweb.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老刘的日常 - OldLiu.cc</rights>
+    <entry>
+        <title type="html"><![CDATA[每个人身边都有一台“透视”相机，并非只有一加8PRO才可以！]]></title>
+        <id>https://oldliuweb.github.io/post/mei-ge-ren-shen-bian-du-you-yi-tai-tou-shi-xiang-ji-bing-fei-zhi-you-yi-jia-8pro-cai-ke-yi/</id>
+        <link href="https://oldliuweb.github.io/post/mei-ge-ren-shen-bian-du-you-yi-tai-tou-shi-xiang-ji-bing-fei-zhi-you-yi-jia-8pro-cai-ke-yi/">
+        </link>
+        <updated>2020-09-12T21:36:50.000Z</updated>
+        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=583219615&amp;bvid=BV1Hz4y1d7rj&amp;cid=193078380&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"> </iframe>
+<p>最近很多小伙伴们都关注到了一条热点，就是一加8PRO手机的秋意滤镜可以实现透视效果，经过试验发现，我们身边都有这个功能的设备！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[华为AX3，WiFi6路由器新品，性价之王？or 廉价地摊货？]]></title>
+        <id>https://oldliuweb.github.io/post/hua-wei-ax3wifi6-lu-you-qi-xin-pin-xing-jie-zhi-wang-or-lian-jie-di-tan-huo/</id>
+        <link href="https://oldliuweb.github.io/post/hua-wei-ax3wifi6-lu-you-qi-xin-pin-xing-jie-zhi-wang-or-lian-jie-di-tan-huo/">
+        </link>
+        <updated>2020-09-12T21:34:21.000Z</updated>
+        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=455423714&amp;bvid=BV1S5411x7xT&amp;cid=184742132&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"> </iframe>
+<p>非专业测试，仅供参考。测试环境200M宽带，路由为一级网络，有公网IP。（两个路由都只经过拨号和wifi密码配置）</p>
+<figure data-type="image" tabindex="1"><img src="https://oldliuweb.github.io/post-images/1599946519152.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://oldliuweb.github.io/post-images/1599946531976.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://oldliuweb.github.io/post-images/1599946547038.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://oldliuweb.github.io/post-images/1599946559266.jpg" alt="" loading="lazy"></figure>
+<p>从数据上可以看出 我家的这个户型基本可以全屋跑满带宽，边角处偶尔会掉一个信号，不过路由器整体的调校和信号优化，做的相当不错。 以上测试非专业测试，与带宽波动、周围环境干扰，又有一定的影响，所以不喜勿喷。</p>
+<p>我之前有体验过小米的wifi6，但是那阵我没买wifi6的手机，显然对小米是不公平的，但是这个路由实际体验效果在wifi5下表现也确实很不错。</p>
+<p>**对于日常家用场景，**如果你还在用早期没有5G的老路由，那么推荐换这个性价比目前比较高的wifi6路由，也用不上什么太多的功能，基本就是联网，偶尔看个连接设备，足够用了。</p>
+<p>**对于爱折腾的小伙伴，**不推荐购买，因为华为历代使用凌霄处理器的路由，基本少有三方固件，而官方固件功能又少的可怜，想折腾刷openwrt或者安装点什么科学的插件，几乎是很难的。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小米路由器AIoT大战斐讯K3（WiFi5下非专业测试）]]></title>
+        <id>https://oldliuweb.github.io/post/xiao-mi-lu-you-qi-aiot-da-zhan-fei-xun-k3wifi5-xia-fei-zhuan-ye-ce-shi/</id>
+        <link href="https://oldliuweb.github.io/post/xiao-mi-lu-you-qi-aiot-da-zhan-fei-xun-k3wifi5-xia-fei-zhuan-ye-ce-shi/">
+        </link>
+        <updated>2020-09-12T21:32:26.000Z</updated>
+        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=925106157&amp;bvid=BV1tT4y157LP&amp;cid=172327562&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"> </iframe>
+![](https://oldliuweb.github.io/post-images/1599946394739.jpg)
+<p><img src="https://oldliuweb.github.io/post-images/1599946431501.jpg" alt="" loading="lazy"><br>
+非专业测试wifi5下测试小米AIoT路由器AX3600和斐讯K3刷入梅林固件，谁更厉害。（毕竟不是家家都有wifi6设备）</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[批处理命令一键彻底关闭WIN10自动更新_BlockWin10AU_开源软件]]></title>
+        <id>https://oldliuweb.github.io/post/pi-chu-li-ming-ling-yi-jian-che-di-guan-bi-win10-zi-dong-geng-xin-_blockwin10au_-kai-yuan-ruan-jian/</id>
+        <link href="https://oldliuweb.github.io/post/pi-chu-li-ming-ling-yi-jian-che-di-guan-bi-win10-zi-dong-geng-xin-_blockwin10au_-kai-yuan-ruan-jian/">
+        </link>
+        <updated>2020-09-12T21:30:47.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<p>右键以管理员身份运行“Block WAU.bat”即可禁止Windows10的自动更新功能<br>
+由于涉及到系统关键位置，记得先关闭类似360的安全软件</p>
+<p>软件下载： <a href="https://www.lanzous.com/ia9bw4b">https://www.lanzous.com/ia9bw4b</a></p>
+<p>作者原文：<a href="https://github.com/f1tz/BlockWin10AU">https://github.com/f1tz/BlockWin10AU</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[小资用户性价比最高的完美黑苹果配置]]></title>
         <id>https://oldliuweb.github.io/post/xiao-zi-yong-hu-xing-jie-bi-zui-gao-de-wan-mei-hei-ping-guo-pei-zhi/</id>
@@ -131,77 +184,6 @@ EFI下载： https://www.lanzous.com/ia5b7wf</p>
 <iframe src="//player.bilibili.com/player.html?aid=76768650&amp;bvid=BV1UJ411d718&amp;cid=131305723&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"> </iframe>
 <p>总结一下：这款指纹锁的优点就是：好使的时候指纹识别速度比较快，不用带钥匙出门是真的很方便；简约风格的设计还算看的过去。缺点呢，离合器外置，锁芯下置，防暴力开锁安全性差；质量不太好，良品率极低，售后也不好（其实也谈不上好不好，是没人管。），后来我百度一搜，一大堆这款产品的用户跟我遇到同样的境遇，不光我这个型号，还有很多其他型号也曝出类似问题。</p>
 <p><a href="https://youtu.be/hvqYxuiDto0">YouTube播放地址</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[欧果HUD车载抬头显示器(胎压版)使用体验 很好很实用]]></title>
-        <id>https://oldliuweb.github.io/post/ou-guo-hud-che-zai-tai-tou-xian-shi-qi-tai-ya-ban-shi-yong-ti-yan-hen-hao-hen-shi-yong/</id>
-        <link href="https://oldliuweb.github.io/post/ou-guo-hud-che-zai-tai-tou-xian-shi-qi-tai-ya-ban-shi-yong-ti-yan-hen-hao-hen-shi-yong/">
-        </link>
-        <updated>2020-09-12T21:06:48.000Z</updated>
-        <summary type="html"><![CDATA[<p>欧果HUD使用体验，总体使用感觉挺好的，除了我这一代的胎压模块，有感兴趣的小伙伴如果购买的话一定问清楚胎压是不是新版本的。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>欧果HUD使用体验，总体使用感觉挺好的，除了我这一代的胎压模块，有感兴趣的小伙伴如果购买的话一定问清楚胎压是不是新版本的。</p>
-<!-- more -->
-<p>京东购买地址 https://u.jd.com/CIaX8L</p>
- <iframe src="//player.bilibili.com/player.html?aid=75845418&amp;bvid=BV1pJ411U7JA&amp;cid=129737000&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"> </iframe>
-<p><a href="https://youtu.be/fBBYyw2K8Xc">YouTube播放地址</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[移康智能门镜T1&天猫精灵合作出品 使用体验]]></title>
-        <id>https://oldliuweb.github.io/post/yi-kang-zhi-neng-men-jing-t1andtian-mao-jing-ling-he-zuo-chu-pin-shi-yong-ti-yan/</id>
-        <link href="https://oldliuweb.github.io/post/yi-kang-zhi-neng-men-jing-t1andtian-mao-jing-ling-he-zuo-chu-pin-shi-yong-ti-yan/">
-        </link>
-        <updated>2020-09-12T21:01:04.000Z</updated>
-        <summary type="html"><![CDATA[<p>今天帮朋友家安装了一个移康和天猫合作出品的一款智能门镜 安装完毕后顺利返厂维修了，简直是一场毁灭性等测评！</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>今天帮朋友家安装了一个移康和天猫合作出品的一款智能门镜 安装完毕后顺利返厂维修了，简直是一场毁灭性等测评！</p>
-<!-- more -->
-<p>后续收到移康寄回来的机器使用正常。</p>
-<iframe src="//player.bilibili.com/player.html?aid=40459153&amp;bvid=BV1yt411p7r5&amp;cid=71023429&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"> </iframe>
-<p>YouTube链接  https://youtu.be/Hy8s6G4m-Vo</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[华硕ASUS RT-AC5300千兆无线路由器使用体验]]></title>
-        <id>https://oldliuweb.github.io/post/hua-shuo-asus-rt-ac5300-qian-zhao-wu-xian-lu-you-qi-shi-yong-ti-yan/</id>
-        <link href="https://oldliuweb.github.io/post/hua-shuo-asus-rt-ac5300-qian-zhao-wu-xian-lu-you-qi-shi-yong-ti-yan/">
-        </link>
-        <updated>2020-09-12T20:54:36.000Z</updated>
-        <summary type="html"><![CDATA[<p>总的来说，外观很霸气，硬件性能很强悍，默认软件性能不错功能很少，koolshare后的固件才是数码爱好者需要的！</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>总的来说，外观很霸气，硬件性能很强悍，默认软件性能不错功能很少，koolshare后的固件才是数码爱好者需要的！</p>
-<!-- more -->
-<iframe src="//player.bilibili.com/player.html?aid=39687728&amp;bvid=BV12t411B716&amp;cid=69722975&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"> </iframe>
-<p>YouTube链接 https://youtu.be/PjzgAsr00Zs</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Debian下安装CURL失败的解决方案]]></title>
-        <id>https://oldliuweb.github.io/post/debian-xia-an-zhuang-curl-shi-bai-de-jie-jue-fang-an/</id>
-        <link href="https://oldliuweb.github.io/post/debian-xia-an-zhuang-curl-shi-bai-de-jie-jue-fang-an/">
-        </link>
-        <updated>2020-09-12T20:51:15.000Z</updated>
-        <summary type="html"><![CDATA[<p>Debian下需要安装curl程序可能会出现命令无效，结果但是通过</p>
-<p><code>apt-get install curl</code></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>Debian下需要安装curl程序可能会出现命令无效，结果但是通过</p>
-<p><code>apt-get install curl</code></p>
-<!-- more -->
-<p>出现安装错误，看了很多资料，都是建议建议先做</p>
-<p><code>apt-get update</code><br>
-<code>apt-get upgrade</code></p>
-<p>但是执行了，还是不行，最后在其他地方看到Debian 9.0以上需要安装</p>
-<p><code>apt-get install sudo</code></p>
-<p>执行了这个之后在执行安装curl就能正常安装了。</p>
-<p>还有一个方法就是先执行</p>
-<p><code>dpkg –configure -a</code></p>
-<p>然后在执行<br>
-<code>apt-get install curl</code></p>
-<!-- more -->
-<p>就可以正常安装了。</p>
-<p>该方法实测有效！</p>
 ]]></content>
     </entry>
 </feed>
