@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>实用网站 | 老刘的日常 - OldLiu.cc</title>
+<title>ESXI下爱快、lede终端监控MAC地址不对的解决办法 | 老刘的日常 - OldLiu.cc</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,10 +18,13 @@
 
 
 
-    <meta name="description" content="1.免费微信编辑器96编辑器： http://bj.96weixin.com/
-2.低价的VPS服务器（支付宝）：联通电信直连机房超值 搬瓦工购买
-3.Adobe全系列下载： http://www.downcc.com/soft/42851..." />
-    <meta name="keywords" content="" />
+    <meta name="description" content="
+修正跨三层 iKuai 上终端监控展示的 MAC 地址都为 OpenWrt/LEDE 的 MAC 地址的问题（SNMP对接）：
+第一步：LEDE → 系统 → 软件包 → “更新列表…”后 → 搜索并安装“snmpd”
+
+
+第二步：iKu..." />
+    <meta name="keywords" content="教程" />
   </head>
   <body>
     <div id="app" class="main">
@@ -108,39 +111,40 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">实用网站</h2>
+            <h2 class="post-title">ESXI下爱快、lede终端监控MAC地址不对的解决办法</h2>
             <div class="post-date">2020-09-13</div>
             
-              <div class="feature-container" style="background-image: url('https://oldliuweb.github.io/post-images/practical.jpg')">
+              <div class="feature-container" style="background-image: url('https://oldliuweb.github.io/post-images/esxi-xia-ai-kuai-lede-zhong-duan-jian-kong-mac-di-zhi-bu-dui-de-jie-jue-ban-fa.png')">
               </div>
             
             <div class="post-content" v-pre>
-              <p>1.免费微信编辑器96编辑器： http://bj.96weixin.com/</p>
-<p>2.低价的VPS服务器（支付宝）：<a href="https://my.racknerd.com/aff.php?aff=749">联通电信直连机房超值</a> <a href="https://bandwagonhost.com/aff.php?aff=54887">搬瓦工购买</a></p>
-<p>3.Adobe全系列下载： http://www.downcc.com/soft/428517.html</p>
-<p>4.YouTube下载解析： <a href="https://y2mate.com/zh-cn/youtube/h8YbdEKOwXQ">点击进入</a> <a href="https://www.clipconverter.cc/">备用工具</a> <a href="https://y2mate.com/zh-cn/youtube/dZgmN0l-hog">音视频解析（需墙）</a></p>
-<p>5.低价代刷：http://mtx.akm1.cn/</p>
-<p>6.全方位查询您的IP地址： http://ip111.cn/</p>
-<p>7.全球Ping测试：http://ping.pe/</p>
-<p>8.SpeedTest网速测试： https://www.speedtest.net/</p>
-<p>9.京东夺宝岛助手： http://jd.svipnet.com/</p>
-<p>10.二维码实时生成： https://233boy.github.io/tools/qr.html</p>
-<p>11.中文SSH客户端： http://www.hostbuf.com/</p>
-<p>12.中文putty客户端： https://www.lanzous.com/i75pucj</p>
-<p>13.一键激活（不可商用）： http://oldliu.cc/?p=25</p>
-<p>14.Google play下载地址解析：https://apkpure.com/cn/</p>
-<p>15.域名价格监控及可用性查询网站大汇总：https://yangyang.im/post/SrEpwQ-ap/</p>
-<p>16.MAC软件（超级全）： https://xclient.info/</p>
-<p>17.视频资源磁力搜索： https://bt.lansou.pw/</p>
-<p>18.搬瓦工虚拟机：<a href="https://bandwagonhost.com/aff.php?aff=54887">点击进入</a></p>
-<p>19.U启通：<a href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=402131">超好用的PE系统</a></p>
-<p>20.苹果云： https://www.icloud.com/</p>
-<p>21.网盘不限速下载： http://pandownload.com/</p>
-<p>22.全国DNS查询：http://www.dnsin.cn</p>
-<p>23.全球NTP服务器：https://ntp.mzr.me/</p>
+              <!-- more -->
+<p>修正跨三层 iKuai 上终端监控展示的 MAC 地址都为 OpenWrt/LEDE 的 MAC 地址的问题（SNMP对接）：</p>
+<p>第一步：LEDE → 系统 → 软件包 → “更新列表…”后 → 搜索并安装“snmpd”<br>
+<img src="https://oldliuweb.github.io/post-images/1599945317879.jpg" alt="" loading="lazy"><br>
+<img src="https://oldliuweb.github.io/post-images/1599945325256.jpg" alt="" loading="lazy"><br>
+第二步：iKuai → 应用工具 → 跨三层应用 → 开启(SNMP服务器IP：此处设置为 LEDE 的 IP 地址，本例为 10.10.10.11，其它选项保持默认即可)，保存并应用这样就全部配置完成了<br>
+<img src="https://oldliuweb.github.io/post-images/1599945330331.jpg" alt="" loading="lazy"></p>
 
             </div>
             
+              <div class="tag-container">
+                
+                  <a href="https://oldliuweb.github.io/tag/Mb_YuzRhB/" class="tag">
+                    教程
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://oldliuweb.github.io/post/ola-zhi-wen-suo-yong-qi-lai-zhen-de-xiang-me-hen-la-ji-ba/">
+                  <h3 class="post-title">
+                    Ola指纹锁 用起来真的香么？很垃圾吧。
+                  </h3>
+                </a>
+              </div>
             
 
             

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://oldliuweb.github.io</id>
     <title>老刘的日常 - OldLiu.cc</title>
-    <updated>2020-09-12T21:14:11.824Z</updated>
+    <updated>2020-09-12T21:16:19.850Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://oldliuweb.github.io"/>
     <link rel="self" href="https://oldliuweb.github.io/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://oldliuweb.github.io/images/avatar.png</logo>
     <icon>https://oldliuweb.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老刘的日常 - OldLiu.cc</rights>
+    <entry>
+        <title type="html"><![CDATA[ESXI下爱快、lede终端监控MAC地址不对的解决办法]]></title>
+        <id>https://oldliuweb.github.io/post/esxi-xia-ai-kuai-lede-zhong-duan-jian-kong-mac-di-zhi-bu-dui-de-jie-jue-ban-fa/</id>
+        <link href="https://oldliuweb.github.io/post/esxi-xia-ai-kuai-lede-zhong-duan-jian-kong-mac-di-zhi-bu-dui-de-jie-jue-ban-fa/">
+        </link>
+        <updated>2020-09-12T21:14:37.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<p>修正跨三层 iKuai 上终端监控展示的 MAC 地址都为 OpenWrt/LEDE 的 MAC 地址的问题（SNMP对接）：</p>
+<p>第一步：LEDE → 系统 → 软件包 → “更新列表…”后 → 搜索并安装“snmpd”<br>
+<img src="https://oldliuweb.github.io/post-images/1599945317879.jpg" alt="" loading="lazy"><br>
+<img src="https://oldliuweb.github.io/post-images/1599945325256.jpg" alt="" loading="lazy"><br>
+第二步：iKuai → 应用工具 → 跨三层应用 → 开启(SNMP服务器IP：此处设置为 LEDE 的 IP 地址，本例为 10.10.10.11，其它选项保持默认即可)，保存并应用这样就全部配置完成了<br>
+<img src="https://oldliuweb.github.io/post-images/1599945330331.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ola指纹锁 用起来真的香么？很垃圾吧。]]></title>
         <id>https://oldliuweb.github.io/post/ola-zhi-wen-suo-yong-qi-lai-zhen-de-xiang-me-hen-la-ji-ba/</id>
