@@ -1,321 +1,175 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
+  <head>
+    <meta charset="utf-8" >
 
-<head>
-  <meta charset="UTF-8" />
-<title>批处理命令一键彻底关闭WIN10自动更新_BlockWin10AU_开源软件 - 老刘的日常 - OldLiu.cc</title>
-<meta name="description" content="分享点滴，记录生活！">
+<title>批处理命令一键彻底关闭WIN10自动更新_BlockWin10AU_开源软件 | 老刘的日常 - OldLiu.cc</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-<link type='text/css' rel='stylesheet' href='http://oldliuweb.github.io/styles/main.css' media='screen' />
-<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css">
-<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<script type="text/javascript" src='http://oldliuweb.github.io/media/scripts/jquery.js'></script>
-<script type="text/javascript" src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
-
-<script>
-    hljs.initHighlightingOnLoad();
-</script>
-</head>
-
-<body>
-  <div class="layout theme-dark">
-    <div class="layout-header">
-
-	<div class="layout-header-main">
-		<div class="container">
-			<div class="row justify-content-lg-center">
-				<div class="col-12 col-lg-9">
-
-					<div class="navbar">
-
-						<div class="logo">
-							<a href="http://oldliuweb.github.io">
-								<img class="logo"
-									src="http://oldliuweb.github.io/media/images/site_avatar.png?v=1599948743129"
-									alt="">
-							</a>
-						</div>
-
-						<div class="menu d-md-inline-block d-none">
-							<ul class="layout-navigation-list">
-								
-								<li class="layout-navigation-item"><a title="首页"
-										href="/">首页</a>
-								</li>
-								
-								<li class="layout-navigation-item"><a title="归档"
-										href="/archives">归档</a>
-								</li>
-								
-								<li class="layout-navigation-item"><a title="标签"
-										href="/tags">标签</a>
-								</li>
-								
-								<li class="layout-navigation-item"><a title="设备清单"
-										href="/post/mydevice">设备清单</a>
-								</li>
-								
-								<li class="layout-navigation-item"><a title="实用"
-										href="/post/practical">实用</a>
-								</li>
-								
-								<li class="layout-navigation-item"><a title="关于"
-										href="/post/about">关于</a>
-								</li>
-								
-							</ul>
-						</div>
-
-						<div class="item d-md-inline-block d-none">
-							<div class="search-icon">
-								<i class="fa fa-search" aria-hidden="true"></i>
-							</div>
-						</div>
-
-
-
-						<div class="d-md-inline-block d-none">
-							<div class="search-lightbox">
-								<div class="search-body">
-
-									<form id="gridea-search-form" data-update="1599948743129" action="/search/" class="search-form">
-										<input type="text" name="q" id="s" value="" class="search-field" placeholder="请输入搜索关键词" aria-label="请输入搜索关键词" required="">
-										<button type="submit" class="submit" aria-label="Submit">
-											<i class="fa fa-search" aria-hidden="true"></i>
-										</button>
-									</form>
-
-								</div>
-							</div>
-						</div>
-
-						<div class="nav d-md-none d-inline-block">
-							<div class="trigger">
-								<i class="fa fa-bars layout-btn-toggle" aria-hidden="true"></i>
-							</div>
-						</div>
-
-					</div>
-
-				</div>
-			</div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.0/css/all.min.css">
+<link rel="shortcut icon" href="http://oldliuweb.github.io/favicon.ico?v=1599948881994">
+<link rel="stylesheet" href="http://oldliuweb.github.io/styles/main.css">
 
 
 
 
-		</div>
-	</div>
 
-</div>
-    <div class="layout-collapse d-md-none">
-	<div class="layout-collapse-main">
-		<ul class="layout-collapse-list">
-			
-			<li class="layout-collapse-item"><a title="首页" href="/">首页</a></li>
-			
-			<li class="layout-collapse-item"><a title="归档" href="/archives">归档</a></li>
-			
-			<li class="layout-collapse-item"><a title="标签" href="/tags">标签</a></li>
-			
-			<li class="layout-collapse-item"><a title="设备清单" href="/post/mydevice">设备清单</a></li>
-			
-			<li class="layout-collapse-item"><a title="实用" href="/post/practical">实用</a></li>
-			
-			<li class="layout-collapse-item"><a title="关于" href="/post/about">关于</a></li>
-			
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
-		</ul>
-	</div>
+
+
+    <meta name="description" content="
+右键以管理员身份运行“Block WAU.bat”即可禁止Windows10的自动更新功能
+由于涉及到系统关键位置，记得先关闭类似360的安全软件
+软件下载： https://www.lanzous.com/ia9bw4b
+作者原文：ht..." />
+    <meta name="keywords" content="分享" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="http://oldliuweb.github.io">
+        <img src="http://oldliuweb.github.io/images/avatar.png?v=1599948881994" class="site-logo">
+        <h1 class="site-title">老刘的日常 - OldLiu.cc</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/mydevice" class="site-nav">
+            设备清单
+          </a>
+        
+      
+        
+          <a href="/post/practical" class="site-nav">
+            实用
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      分享点滴，记录生活！
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea </a><script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1279267474&web_id=1279267474"></script> | <a class="rss" href="http://oldliuweb.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
 </div>
 
-    <div class="layout-content">
-      <div class="layout-content-main">
-        <div class="container">
-          <div class="row justify-content-lg-center">
-            <div class="col-12 col-lg-9">
-              <div class="layout-post">
-                <div class="layout-post-body">
-                  <div class="row">
 
-                    <div class="col-12 col-lg-10">
-                      <div class="layout-post-main m-right m-md-right">
-                        <div class="layout-post-header">
-                          <h1 class="layout-post-title">批处理命令一键彻底关闭WIN10自动更新_BlockWin10AU_开源软件</h1>
-                          <div class="layout-post-meta">
-                            <div class="item">
-                               <a href="http://oldliuweb.github.io/tag/E2ygofIKJ/" class="post--keyword"
-                                data-title="分享" data-type="post_tag" data-term-id="39">分享</a>
-                              
-                            </div>
-                            <div class="item">
-                              <span>2020-09-13</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="layout-post-content">
-                          <div class="layout-post-item">
-                            
-                            <p class="with-img"><img src="http://oldliuweb.github.io/post-images/pi-chu-li-ming-ling-yi-jian-che-di-guan-bi-win10-zi-dong-geng-xin-_blockwin10au_-kai-yuan-ruan-jian.jpg"
-                                class="attachment-full size-full wp-post-image" alt="批处理命令一键彻底关闭WIN10自动更新_BlockWin10AU_开源软件" /></p>
-                            
-                            <!-- more -->
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">批处理命令一键彻底关闭WIN10自动更新_BlockWin10AU_开源软件</h2>
+            <div class="post-date">2020-09-13</div>
+            
+              <div class="feature-container" style="background-image: url('http://oldliuweb.github.io/post-images/pi-chu-li-ming-ling-yi-jian-che-di-guan-bi-win10-zi-dong-geng-xin-_blockwin10au_-kai-yuan-ruan-jian.jpg')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <!-- more -->
 <p>右键以管理员身份运行“Block WAU.bat”即可禁止Windows10的自动更新功能<br>
 由于涉及到系统关键位置，记得先关闭类似360的安全软件</p>
 <p>软件下载： <a href="https://www.lanzous.com/ia9bw4b">https://www.lanzous.com/ia9bw4b</a></p>
 <p>作者原文：<a href="https://github.com/f1tz/BlockWin10AU">https://github.com/f1tz/BlockWin10AU</a></p>
 
-                          </div>
-                        </div>
-                        <div class="layout-post-social">
-                          <div class="item reader">
-                            <div id="/post/pi-chu-li-ming-ling-yi-jian-che-di-guan-bi-win10-zi-dong-geng-xin-_blockwin10au_-kai-yuan-ruan-jian/" class="leancloud-visitors view"
-                              data-flag-title="批处理命令一键彻底关闭WIN10自动更新_BlockWin10AU_开源软件">
-                              <span class="post-meta-item-text">阅读 </span>
-                              <span class="leancloud-visitors-count"></span>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="layout-post-navigation">
-                          <div class="navigation-list">
-                            
-                            <div class="post-card row">
-                              
-                              <div class="card-content col-8 col-md-9">
-                                <div class="card-body">
-                                  <div class="header">
-                                    <a href="http://oldliuweb.github.io/post/xiao-mi-lu-you-qi-aiot-da-zhan-fei-xun-k3wifi5-xia-fei-zhuan-ye-ce-shi/" class="title">
-                                      <h4>小米路由器AIoT大战斐讯K3（WiFi5下非专业测试）</h4>
-                                    </a>
-                                  </div>
-                                  <div class="inner d-none d-sm-block">
-                                    <div class="abstract">
-                                      
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="card-footer">
-                                  <div class="item"><span>上一篇</span></div>
-                                  <div class="item">2020-09-13</div>
-                                </div>
-                              </div>
-                              <div class="card-thumb col-4 col-md-3">
-                                <div class="thumb">
-                                  <a href="http://oldliuweb.github.io/post/xiao-mi-lu-you-qi-aiot-da-zhan-fei-xun-k3wifi5-xia-fei-zhuan-ye-ce-shi/"
-                                    style="background-image: url('http://oldliuweb.github.io/post-images/xiao-mi-lu-you-qi-aiot-da-zhan-fei-xun-k3wifi5-xia-fei-zhuan-ye-ce-shi.jpg');"></a>
-                                </div>
-                              </div>
-                              
-                            </div>
-
-                            <div class="post-card row">
-                              
-                              <div class="card-content col-8 col-md-9">
-                                <div class="card-body">
-                                  <div class="header">
-                                    <a href="http://oldliuweb.github.io/post/xiao-zi-yong-hu-xing-jie-bi-zui-gao-de-wan-mei-hei-ping-guo-pei-zhi/" class="title">
-                                      <h4>小资用户性价比最高的完美黑苹果配置</h4>
-                                    </a>
-                                  </div>
-                                  <div class="inner d-none d-sm-block">
-                                    <div class="abstract">
-                                      
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="card-footer">
-                                  <div class="item"><span>下一篇</span></div>
-                                  <div class="item">2020-09-13</div>
-                                </div>
-                              </div>
-                              <div class="card-thumb col-4 col-md-3">
-                                <div class="thumb">
-                                  <a href="http://oldliuweb.github.io/post/xiao-zi-yong-hu-xing-jie-bi-zui-gao-de-wan-mei-hei-ping-guo-pei-zhi/"
-                                    style="background-image: url('http://oldliuweb.github.io/post-images/xiao-zi-yong-hu-xing-jie-bi-zui-gao-de-wan-mei-hei-ping-guo-pei-zhi.png');"></a>
-                                </div>
-                              </div>
-                              
-                            </div>
-
-                            
-                          </div>
-                        </div>
-
-                        <div class="layout-comments"></div>
-                        
-                      </div>
-                    </div>
-
-                    <div class="col-12 col-lg-2 d-none d-lg-block">
-                      <div class="layout-post-sidebar">
-                        <div class="layout-sidebar-item">
-                          
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
+            
+              <div class="tag-container">
+                
+                  <a href="http://oldliuweb.github.io/tag/E2ygofIKJ/" class="tag">
+                    分享
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="http://oldliuweb.github.io/post/xiao-zi-yong-hu-xing-jie-bi-zui-gao-de-wan-mei-hei-ping-guo-pei-zhi/">
+                  <h3 class="post-title">
+                    小资用户性价比最高的完美黑苹果配置
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
           </div>
+
         </div>
       </div>
     </div>
 
-    <div class="layout-totop d-none"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+<script type="application/javascript">
 
-    	<div class="layout-footer">
+AOS.init();
 
-		<div class="container">
-			<div class="row justify-content-lg-center">
-				<div class="col-12 col-lg-9">
-					<div class="footer">
-						<div class="row">
-							<div class="col-12 col-md-9">
-								<div class="footer-copy">
-									
-									Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea </a><script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1279267474&web_id=1279267474"></script>
-									<div class="footer-icp d-none d-sm-inline-block">
-										<span class="px-2">⋅</span>
-										
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3 d-none d-md-block">
-								<div class="footer-links">
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-	</div>
+</script>
 
-	<script type="text/javascript" src='http://oldliuweb.github.io/media/scripts/main.js'></script>
-	
 
-  </div>
-</body>
 
+
+
+
+  </body>
 </html>
