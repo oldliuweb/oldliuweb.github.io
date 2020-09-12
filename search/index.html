@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 
 <head>
-	<meta charset="UTF-8" />
+    <meta charset="UTF-8" />
 <title>老刘的日常 - OldLiu.cc</title>
 <meta name="description" content="分享点滴，记录生活！">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -17,11 +17,15 @@
 <script>
     hljs.initHighlightingOnLoad();
 </script>
+    <script src="/media/search/fuse.js"></script>
+    <script src="/media/search/ejs.min.js"></script>
+    <script src="/media/search/gridea-search.js"></script>
+    <script src="/media/search/result.ejs" type="text/ejs"></script>
 </head>
 
 <body>
-	<div class="layout theme-dark">
-		<div class="layout-header">
+    <div class="layout theme-dark">
+        <div class="layout-header">
 
 	<div class="layout-header-main">
 		<div class="container">
@@ -109,7 +113,7 @@
 	</div>
 
 </div>
-		<div class="layout-collapse d-md-none">
+        <div class="layout-collapse d-md-none">
 	<div class="layout-collapse-main">
 		<ul class="layout-collapse-list">
 			
@@ -130,101 +134,39 @@
 	</div>
 </div>
 
-		<div class="layout-content">
-			<div class="layout-content-main">
-				<div class="container">
-					<div class="row justify-content-lg-center">
-						<div class="col-12 col-lg-9">
-							<div class="layout-tags row">
-								
-								<div class="col-6 mb-3">
-									<div class="card">
-										<div class="card-header">
-											<div class="header-content">
-												<div class="title">分享</div>
-											</div>
-										</div>
-										<div class="card-body">
-											<div class="card-item">
-												<div class="list-content">
-													<div class="list-body">
-														<div class="title" href=""><span> 5 </span> 篇文章</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								
-								<div class="col-6 mb-3">
-									<div class="card">
-										<div class="card-header">
-											<div class="header-content">
-												<div class="title">评测</div>
-											</div>
-										</div>
-										<div class="card-body">
-											<div class="card-item">
-												<div class="list-content">
-													<div class="list-body">
-														<div class="title" href=""><span> 6 </span> 篇文章</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								
-								<div class="col-6 mb-3">
-									<div class="card">
-										<div class="card-header">
-											<div class="header-content">
-												<div class="title">教程</div>
-											</div>
-										</div>
-										<div class="card-body">
-											<div class="card-item">
-												<div class="list-content">
-													<div class="list-body">
-														<div class="title" href=""><span> 3 </span> 篇文章</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								
-								<div class="col-6 mb-3">
-									<div class="card">
-										<div class="card-header">
-											<div class="header-content">
-												<div class="title">工具</div>
-											</div>
-										</div>
-										<div class="card-body">
-											<div class="card-item">
-												<div class="list-content">
-													<div class="list-body">
-														<div class="title" href=""><span> 1 </span> 篇文章</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								
+        <div class="layout-content">
+            <div class="layout-content-main">
+                <div class="container">
+                    <div class="row justify-content-lg-center">
+                        <div class="col-12 col-lg-9">
+                            <div id="gridea-search-result" class="layout-archive">
 
-							</div>
+                                <div class="card searching">
+                                    <div class="card-header">
+                                        <div class="header-content">
+                                            <div class="title">搜索中......</div>
+                                        </div>
+                                    </div>
+                                </div>
 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                                <div class="card no-result" style="display:none">
+                                    <div class="card-header">
+                                        <div class="header-content">
+                                            <div class="title">未搜索到相关文章</div>
+                                        </div>
+                                    </div>
+                                </div>
 
+                            </div>
 
+                        </div>
+                    </div>
 
-			<div class="layout-footer">
+                </div>
+            </div>
+        </div>
+
+        	<div class="layout-footer">
 
 		<div class="container">
 			<div class="row justify-content-lg-center">
@@ -272,7 +214,7 @@
 
 	<script type="text/javascript" src='http://oldliuweb.github.io/media/scripts/main.js'></script>
 	
-	</div>
+    </div>
 </body>
 
 </html>
