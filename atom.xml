@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://oldliuweb.github.io</id>
     <title>老刘的日常 - OldLiu.cc</title>
-    <updated>2020-09-12T21:27:27.263Z</updated>
+    <updated>2020-09-12T21:30:24.524Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://oldliuweb.github.io"/>
     <link rel="self" href="https://oldliuweb.github.io/atom.xml"/>
@@ -10,6 +10,39 @@
     <logo>https://oldliuweb.github.io/images/avatar.png</logo>
     <icon>https://oldliuweb.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老刘的日常 - OldLiu.cc</rights>
+    <entry>
+        <title type="html"><![CDATA[小资用户性价比最高的完美黑苹果配置]]></title>
+        <id>https://oldliuweb.github.io/post/xiao-zi-yong-hu-xing-jie-bi-zui-gao-de-wan-mei-hei-ping-guo-pei-zhi/</id>
+        <link href="https://oldliuweb.github.io/post/xiao-zi-yong-hu-xing-jie-bi-zui-gao-de-wan-mei-hei-ping-guo-pei-zhi/">
+        </link>
+        <updated>2020-09-12T21:28:08.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>主要部件购买清单</strong><br>
+1.处理器： 英特尔 Core i5-9600KF @ 3.70GHz 六核 1300元左右<br>
+2.主板： 华硕 TUF B360M-PLUS GAMING S 600元左右<br>
+3.显卡： 主显卡 AMD Radeon RX 580 ( 4 GB / AMD ) 某鱼400-500元左右<br>
+4.内存： 16 GB ( 玖合 DDR4 2666MHz ) 某多多389元<br>
+5.硬盘：建议购买NVME的 大小不等价格不一<br>
+6.网卡&amp;蓝牙组件：某鱼或某宝搜索 BCM94360CD （双频1750M加蓝牙，用于免驱支持苹果的隔空传送）240元左右<br>
+EFI下载： https://www.lanzous.com/ia5b7wf</p>
+<p>系统下载：<br>
+链接: https://pan.baidu.com/s/15iDpGzHcwJxt4zYPoZlbSw 提取码: wwcm</p>
+<p>安装步骤：<br>
+1.设置主板BIOS，华硕主板bios上方有搜索，可以直接搜索我列出的选项修改保存即可。<br>
+2.制作系统U盘，用TransMac制作系统U盘。试用方法参见 https://blog.csdn.net/qq_36583249/article/details/86101076<br>
+3.替换EFI文件，试用PE或者DiskGenius，把U盘EFI分区的文件替换为上文提供的EFI文件，注意EFI分区下根目录有一个文件夹名称为EFI。<br>
+4.插入U盘，启动项选择该U盘的EFI启动项。<br>
+5.安装系统即可。</p>
+<p>支持在线升级，今天在线升级到10.15.3无任何使用BUG，完美升级。<br>
+<img src="https://oldliuweb.github.io/post-images/1599946147664.png" alt="" loading="lazy"></p>
+<p>主板bios中更改（主板BIOS最上方有搜索按钮搜索后可直接修改）</p>
+<p><code>Advanced —&gt; Onboard Devices Configuration-Serial Port Configuration Serial Port —&gt; Off</code><br>
+<code>Advanced —&gt; USB Configuration-XHCI Hand-off —&gt; Enabled</code><br>
+<code>Secure Boot -&gt; OS Type -&gt; Other OS</code><br>
+<code>Advanced —&gt; PCH configuration-IOAPIC 24-119 Entries —&gt; disabled</code><br>
+<code>CFG-LOCK -&gt; disabled</code><br>
+<code>Advanced -&gt; Advanced PCH Configuration -&gt; system time and alarm source -&gt; Legacy RTC</code></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[不用华为电脑也能用华为多屏协同，超级简单分分钟搞定！]]></title>
         <id>https://oldliuweb.github.io/post/bu-yong-hua-wei-dian-nao-ye-neng-yong-hua-wei-duo-ping-xie-tong-chao-ji-jian-dan-fen-fen-zhong-gao-ding/</id>
@@ -169,266 +202,6 @@
 <!-- more -->
 <p>就可以正常安装了。</p>
 <p>该方法实测有效！</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[中国移动直播播放源 超级流畅清晰]]></title>
-        <id>https://oldliuweb.github.io/post/zhong-guo-yi-dong-zhi-bo-bo-fang-yuan-chao-ji-liu-chang-qing-xi/</id>
-        <link href="https://oldliuweb.github.io/post/zhong-guo-yi-dong-zhi-bo-bo-fang-yuan-chao-ji-liu-chang-qing-xi/">
-        </link>
-        <updated>2020-09-12T20:48:42.000Z</updated>
-        <content type="html"><![CDATA[<p>中国移动高清流程直播源：电脑使用可用完美解码播放器导入直播源。</p>
-<p>#EXTM3U<br>
-#EXTINF:-1 ,CCTV-1蓝光<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-1-CQ/G_CCTV-1-CQ/<br>
-#EXTINF:-1 ,CCTV-2蓝光<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-2-CQ/G_CCTV-2-CQ/<br>
-#EXTINF:-1 ,CCTV-3蓝光<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-3-CQ/G_CCTV-3-CQ/<br>
-#EXTINF:-1 ,CCTV-4蓝光<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-4-CQ/G_CCTV-4-CQ/<br>
-#EXTINF:-1 ,CCTV-5蓝光<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-5-CQ/G_CCTV-5-CQ/<br>
-#EXTINF:-1 ,CCTV-5+蓝光<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-5PLUS-CQ/G_CCTV-5PLUS-CQ/<br>
-#EXTINF:-1 ,CCTV-6蓝光<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-6-CQ/G_CCTV-6-CQ/<br>
-#EXTINF:-1 ,CCTV-8蓝光<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-8-CQ/G_CCTV-8-CQ/<br>
-#EXTINF:-1 ,CCTV-1超清<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-1-HQ/G_CCTV-1-HQ/<br>
-#EXTINF:-1 ,CCTV-2高清<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-2-HD/G_CCTV-2-HD/<br>
-#EXTINF:-1 ,CCTV-3超清<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-3-HQ/G_CCTV-3-HQ/<br>
-#EXTINF:-1 ,CCTV-4超清<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-4-HQ/G_CCTV-4-HQ/<br>
-#EXTINF:-1 ,CCTV-5超清<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-5-HQ/G_CCTV-5-HQ/<br>
-#EXTINF:-1 ,CCTV-5+超清<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-5PLUS-HQ/G_CCTV-5PLUS-HQ/<br>
-#EXTINF:-1 ,CCTV-6超清<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-6-HQ/G_CCTV-6-HQ/<br>
-#EXTINF:-1 ,CCTV-7超清<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-7-HQ/G_CCTV-7-HQ/<br>
-#EXTINF:-1 ,CCTV-8超清<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-8-HQ/G_CCTV-8-HQ/<br>
-#EXTINF:-1 ,CCTV-9超清<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-9/G_CCTV-9/<br>
-#EXTINF:-1 ,CCTV-10超清<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-10-HQ/G_CCTV-10-HQ/<br>
-#EXTINF:-1 ,CCTV-11超清<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-11-HQ/G_CCTV-11-HQ/<br>
-#EXTINF:-1 ,CCTV-12超清<br>
-http://223.110.241.203:6610/gitv/live1/CCTV-12/CCTV-12/<br>
-#EXTINF:-1 ,CCTV-13超清<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-13-HQ/G_CCTV-13-HQ/<br>
-#EXTINF:-1 ,CCTV-14超清<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-14/G_CCTV-14/<br>
-#EXTINF:-1 ,CCTV-15超清<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-15/G_CCTV-15/<br>
-#EXTINF:-1 ,CCTV-NEWS<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-NEWS/G_CCTV-NEWS/<br>
-#EXTINF:-1 ,CCTV-1   选用<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-1/G_CCTV-1/<br>
-#EXTINF:-1 ,CCTV-2<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-2/G_CCTV-2/<br>
-#EXTINF:-1 ,CCTV-3<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-3-HD/G_CCTV-3-HD/<br>
-#EXTINF:-1 ,CCTV-5<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-5-HD/G_CCTV-5-HD/<br>
-#EXTINF:-1 ,CCTV-8<br>
-http://223.110.241.203:6610/gitv/live1/G_CCTV-8/G_CCTV-8/<br>
-#EXTINF:-1 ,CETV-1<br>
-http://223.110.241.203:6610/gitv/live1/G_CETV-1/G_CETV-1/<br>
-#EXTINF:-1 ,CETV-2<br>
-http://223.110.241.203:6610/gitv/live1/G_CETV-2/G_CETV-2/<br>
-#EXTINF:-1 ,CETV-4<br>
-http://223.110.241.203:6610/gitv/live1/G_CETV-4/G_CETV-4/<br>
-#EXTINF:-1 ,CETV-3<br>
-http://223.110.241.203:6610/gitv/live1/G_CETV-3/G_CETV-3/<br>
-#EXTINF:-1 ,湖南卫视超清<br>
-http://223.110.241.203:6610/gitv/live1/G_HUNAN-CQ/G_HUNNA-CQ<br>
-#EXTINF:-1 ,东方卫视超清<br>
-http://223.110.241.203:6610/gitv/live1/G_DONGFANG-CQ/G_DONGFANG-CQ<br>
-#EXTINF:-1 ,北京卫视超清<br>
-http://223.110.241.203:6610/gitv/live1/G_BEIJING-CQ/G_BEIJING-CQ<br>
-#EXTINF:-1 ,广东卫视超清<br>
-http://223.110.241.203:6610/gitv/live1/G_GUANGDONGQ/G_GUANGDONG-CQ<br>
-#EXTINF:-1 ,黑龙江卫视超清<br>
-http://223.110.241.203:6610/gitv/live1/G_HEILONGJIANG-CQ/G_HEILONGJIANG-CQ<br>
-#EXTINF:-1 ,深圳卫视超清<br>
-http://223.110.241.203:6610/gitv/live1/G_SHENZHEN-CQ/G_SHENZHEN-CQ<br>
-#EXTINF:-1 ,浙江卫视超清<br>
-http://223.110.241.203:6610/gitv/live1/G_ZHEJIANG-CQ/G_ZHEJIANG-CQ<br>
-#EXTINF:-1 ,江苏卫视超清<br>
-http://223.110.241.203:6610/gitv/live1/G_JIANGSU-CQ/GU_JIANGSU-CQ<br>
-#EXTINF:-1 ,安徽卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_ANHUI-CQ/G_ANHUI-CQ<br>
-#EXTINF:-1 ,辽宁卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_LIAONING-CQ/G_LIAONING-CQ<br>
-#EXTINF:-1 ,山东卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_SHANDONG-CQ/G_SHANDONG-CQ<br>
-#EXTINF:-1 ,浙江卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_ZHEJIANG-CQ/G_ZHEJIANG-CQ/<br>
-#EXTINF:-1 ,湖南卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_HUNAN-CQ/G_HUNAN-CQ<br>
-#EXTINF:-1 ,东方卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_DONGFANG-CQ/G_DONGFANG-CQ/<br>
-#EXTINF:-1 ,湖南卫视超清-8M<br>
-http://223.110.241.203:6610/gitv/live1/G_HUNAN-CQ/G_HUNAN-CQ/<br>
-#EXTINF:-1 ,江苏卫视超清<br>
-http://223.110.241.203:6610/gitv/live1/G_JIANGSU-CQ/G_JIANGSU-CQ/<br>
-#EXTINF:-1 ,北京卫视超清-8M<br>
-http://223.110.241.203:6610/gitv/live1/G_BEIJING-CQ/G_BEIJING-CQ/<br>
-#EXTINF:-1 ,浙江卫视超清<br>
-http://223.110.241.203:6610/gitv/live1/G_ZHEJIANG-CQ/G_ZHEJIANG-CQ/<br>
-#EXTINF:-1 ,东方卫视超清-8M<br>
-http://223.110.241.203:6610/gitv/live1/G_DONGFANG-CQ/G_DONGFANG-CQ/<br>
-#EXTINF:-1 ,江苏教育<br>
-http://223.110.241.203:6610/gitv/live1/G_JSJY/G_JSJY/<br>
-#EXTINF:-1 ,江苏城市<br>
-http://223.110.241.203:6610/gitv/live1/G_JSCS/G_JSCS/<br>
-#EXTINF:-1 ,江苏公共<br>
-http://223.110.241.203:6610/gitv/live1/G_JSGG/G_JSGG/<br>
-#EXTINF:-1 ,江苏影视<br>
-http://223.110.241.203:6610/gitv/live1/G_JSYS/G_JSYS/<br>
-#EXTINF:-1 ,江苏休闲体育<br>
-http://223.110.241.203:6610/gitv/live1/G_JSTY/G_JSTY/<br>
-#EXTINF:-1 ,江苏综艺<br>
-http://223.110.241.203:6610/gitv/live1/G_JSZY/G_JSZY/<br>
-#EXTINF:-1 ,好享购<br>
-http://223.110.241.203:6610/gitv/live1/G_HAOXIANG/G_HAOXIANG/<br>
-#EXTINF:-1 ,南京新闻综合<br>
-http://223.110.241.203:6610/gitv/live1/G_NJXW/G_NJXW/<br>
-#EXTINF:-1 ,南京科教<br>
-http://223.110.241.203:6610/gitv/live1/G_NJJK/G_NJJK/<br>
-#EXTINF:-1 ,南京十八<br>
-http://223.110.241.203:6610/gitv/live1/G_NJSB/G_NJSB/<br>
-#EXTINF:-1 ,安徽卫视<br>
-http://223.110.241.203:6610/gitv/live1/AHWS/AHWS/<br>
-#EXTINF:-1 ,辽宁卫视<br>
-http://223.110.241.203:6610/gitv/live1/LNWS/LNWS/<br>
-#EXTINF:-1 ,山东卫视<br>
-http://223.110.241.203:6610/gitv/live1/SDWS/SDWS/<br>
-#EXTINF:-1 ,广西卫视<br>
-http://223.110.241.203:6610/gitv/live1/GXWS/GXWS/<br>
-#EXTINF:-1 ,旅游卫视<br>
-http://223.110.241.203:6610/gitv/live1/LYWS/LYWS/<br>
-#EXTINF:-1 ,重庆卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_CHONGQING/G_CHONGQING/<br>
-#EXTINF:-1 ,四川卫视<br>
-http://223.110.241.203:6610/gitv/live1/SCWS/SCWS/<br>
-#EXTINF:-1 ,河南卫视<br>
-http://223.110.241.203:6610/gitv/live1/HENAN/HENAN/<br>
-#EXTINF:-1 ,东南卫视<br>
-http://223.110.241.203:6610/gitv/live1/DNWS/DNWS/<br>
-#EXTINF:-1 ,天津卫视<br>
-http://223.110.241.203:6610/gitv/live1/TJWS/TJWS/<br>
-#EXTINF:-1 ,江西卫视<br>
-http://223.110.241.203:6610/gitv/live1/JXWS/JXWS/<br>
-#EXTINF:-1 ,湖北卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_HUBEI/G_HUBEI/<br>
-#EXTINF:-1 ,吉林卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_JILIN/G_JILIN/<br>
-#EXTINF:-1 ,山西卫视<br>
-http://223.110.241.203:6610/gitv/live1/SXWS/SXWS/<br>
-#EXTINF:-1 ,贵州卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_GUIZHOU/G_GUIZHOU/<br>
-#EXTINF:-1 ,青海卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_QINGHAI/G_QINGHAI/<br>
-#EXTINF:-1 ,内蒙古卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_NEIMENGGU/G_NEIMENGGU/<br>
-#EXTINF:-1 ,云南卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_YUNNAN/G_YUNNAN/<br>
-#EXTINF:-1 ,河北卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_HEBEI/G_HEBEI/<br>
-#EXTINF:-1 ,宁夏卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_NINGXIA/G_NINGXIA/<br>
-#EXTINF:-1 ,新疆卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_XINJIANG/G_XINJIANG/<br>
-#EXTINF:-1 ,甘肃卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_GANSU/G_GANSU/<br>
-#EXTINF:-1 ,西藏卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_XIZANG/G_XIZANG/<br>
-#EXTINF:-1 ,优漫卡通<br>
-http://223.110.241.203:6610/gitv/live1/G_YOUMAN/G_YOUMAN/<br>
-#EXTINF:-1 ,浙江卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_ZHEJIANG/G_ZHEJIANG/<br>
-#EXTINF:-1 ,江苏卫视<br>
-http://223.110.241.203:6610/gitv/live1/JSWS-HD/JSWS-HD/<br>
-#EXTINF:-1 ,湖南卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_HUNAN/G_HUNAN/<br>
-#EXTINF:-1 ,东方卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_DONGFANG/G_DONGFANG/<br>
-#EXTINF:-1 ,北京卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_BEIJING/G_BEIJING/<br>
-#EXTINF:-1 ,广东卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_GUANGDONG/G_GUANGDONG/<br>
-#EXTINF:-1 ,深圳卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_SHENZHEN/G_SHENZHEN/<br>
-#EXTINF:-1 ,黑龙江卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_HEILONGJIANG/G_HEILONGJIANG/<br>
-#EXTINF:-1 ,兵团卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_BINGTUAN/G_BINGTUAN/<br>
-#EXTINF:-1 ,陕西卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_SHANXI/G_SHANXI/<br>
-#EXTINF:-1 ,南方卫视（广东）<br>
-http://223.110.241.203:6610/gitv/live1/G_NANFANG/G_NANFANG/<br>
-#EXTINF:-1 ,厦门卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_XIAMEN/G_XIAMEN/<br>
-#EXTINF:-1 ,山东卫视超清<br>
-http://223.110.241.203:6610/gitv/live1/G_SHANDONG-HQ/G_SHANDONG-HQ/<br>
-#EXTINF:-1 ,延边卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_YANBIAN/G_YANBIAN/<br>
-#EXTINF:-1 ,嘉佳卡通<br>
-http://223.110.241.203:6610/gitv/live1/G_JIAJIA/G_JIAJIA/<br>
-#EXTINF:-1 ,山东教育电视台<br>
-http://223.110.241.203:6610/gitv/live1/G_SDETV/G_SDETV/<br>
-#EXTINF:-1 ,安多卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_ANDUO/G_ANDUO/<br>
-#EXTINF:-1 ,考试在线<br>
-http://223.110.241.203:6610/gitv/live1/G_KAOSHIZX/G_KAOSHIZX/<br>
-#EXTINF:-1 ,农林卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_NONGLIN/G_NONGLIN/<br>
-#EXTINF:-1 ,置业频道<br>
-http://223.110.241.203:6610/gitv/live1/G_ZHIYE/G_ZHIYE/<br>
-#EXTINF:-1 ,康巴卫视<br>
-http://223.110.241.203:6610/gitv/live1/G_KANGBA/G_KANGBA/<br>
-#EXTINF:-1 ,京视剧场<br>
-http://223.110.241.203:6610/gitv/live1/G_JINGJU/G_JINGJU/<br>
-#EXTINF:-1 ,新娱乐<br>
-http://223.110.241.203:6610/gitv/live1/G_XINYULE/G_XINYULE/<br>
-#EXTINF:-1 ,家庭理财<br>
-http://223.110.241.203:6610/gitv/live1/G_JIATINGLC/G_JIATINGLC/<br>
-#EXTINF:-1 ,发现之旅<br>
-http://223.110.241.203:6610/gitv/live1/G_FAXIANZL/G_FAXIANZL/<br>
-#EXTINF:-1 ,弈坛春秋<br>
-http://223.110.241.203:6610/gitv/live1/G_YITANCQ/G_YITANCQ/<br>
-#EXTINF:-1 ,老故事<br>
-http://223.110.241.203:6610/gitv/live1/G_LAOGUSHI/G_LAOGUSHI/<br>
-#EXTINF:-1 ,女性时尚<br>
-http://223.110.241.203:6610/gitv/live1/G_NVXINGSS/G_NVXINGSS/<br>
-#EXTINF:-1 ,现代女性<br>
-http://223.110.241.203:6610/gitv/live1/G_XIANDAINX/G_XIANDAINX/<br>
-#EXTINF:-1 ,高尔夫<br>
-http://223.110.241.203:6610/gitv/live1/G_GAOERFU/G_GAOERFU/<br>
-#EXTINF:-1 ,职业指南<br>
-http://223.110.241.203:6610/gitv/live1/G_ZHIYEZN/G_ZHIYEZN/<br>
-#EXTINF:-1 ,证券资讯<br>
-http://223.110.241.203:6610/gitv/live1/G_ZHENGJUANZX/G_ZHENGJUANZX/<br>
-#EXTINF:-1 ,中国交通频道<br>
-http://223.110.241.203:6610/gitv/live1/G_ZHONGGUOJT/G_ZHONGGUOJT/<br>
-#EXTINF:-1 ,国学频道<br>
-http://223.110.241.203:6610/gitv/live1/G_GUOXUE/G_GUOXUE/<br>
-#EXTINF:-1 ,篮球<br>
-http://223.110.241.203:6610/gitv/live1/G_LANQIU/G_LANQIU/<br>
-#EXTINF:-1 ,卡酷少儿<br>
-http://223.110.241.203:6610/gitv/live1/G_KAKU/G_KAKU/<br>
-#EXTINF:-1 ,金鹰卡通<br>
-http://223.110.241.203:6610/gitv/live1/G_JINYING/G_JINYING/<br>
-#EXTINF:-1 ,炫动卡通<br>
-http://223.110.241.203:6610/gitv/live1/G_XUANDONG/G_XUANDONG/</p>
 ]]></content>
     </entry>
 </feed>
