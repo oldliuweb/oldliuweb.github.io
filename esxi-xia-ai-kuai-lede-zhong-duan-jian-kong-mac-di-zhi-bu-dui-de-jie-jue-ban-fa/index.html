@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | 老刘的日常 - OldLiu.cc</title>
+<title>ESXI下爱快、lede终端监控MAC地址不对的解决办法 | 老刘的日常 - OldLiu.cc</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -20,7 +20,13 @@
 
 
 
-    <meta name="description" content="分享点滴，记录生活！">
+    <meta name="description" content="
+修正跨三层 iKuai 上终端监控展示的 MAC 地址都为 OpenWrt/LEDE 的 MAC 地址的问题（SNMP对接）：
+第一步：LEDE → 系统 → 软件包 → “更新列表…”后 → 搜索并安装“snmpd”
+
+
+第二步：iKu..." />
+    <meta name="keywords" content="教程" />
   </head>
   <body>
     <div id="app" class="main">
@@ -104,18 +110,47 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="tags-container">
+          <div class="post-detail">
+            <h2 class="post-title">ESXI下爱快、lede终端监控MAC地址不对的解决办法</h2>
+            <div class="post-date">2020-09-13</div>
             
-              <a class="tag" href="https://oldliuweb.github.io/E2ygofIKJ/">分享</a>
+              <div class="feature-container" style="background-image: url('https://oldliuweb.github.io/post-images/esxi-xia-ai-kuai-lede-zhong-duan-jian-kong-mac-di-zhi-bu-dui-de-jie-jue-ban-fa.png')">
+              </div>
             
-              <a class="tag" href="https://oldliuweb.github.io/-W8UPZhpE/">评测</a>
+            <div class="post-content" v-pre>
+              <!-- more -->
+<p>修正跨三层 iKuai 上终端监控展示的 MAC 地址都为 OpenWrt/LEDE 的 MAC 地址的问题（SNMP对接）：</p>
+<p>第一步：LEDE → 系统 → 软件包 → “更新列表…”后 → 搜索并安装“snmpd”<br>
+<img src="https://oldliuweb.github.io/post-images/1599945317879.jpg" alt="" loading="lazy"><br>
+<img src="https://oldliuweb.github.io/post-images/1599945325256.jpg" alt="" loading="lazy"><br>
+第二步：iKuai → 应用工具 → 跨三层应用 → 开启(SNMP服务器IP：此处设置为 LEDE 的 IP 地址，本例为 10.10.10.11，其它选项保持默认即可)，保存并应用这样就全部配置完成了<br>
+<img src="https://oldliuweb.github.io/post-images/1599945330331.jpg" alt="" loading="lazy"></p>
+
+            </div>
             
-              <a class="tag" href="https://oldliuweb.github.io/Mb_YuzRhB/">教程</a>
+              <div class="tag-container">
+                
+                  <a href="https://oldliuweb.github.io/Mb_YuzRhB/" class="tag">
+                    教程
+                  </a>
+                
+              </div>
             
-              <a class="tag" href="https://oldliuweb.github.io/Wfpk6N0Gd/">工具</a>
             
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://oldliuweb.github.io/ola-zhi-wen-suo-yong-qi-lai-zhen-de-xiang-me-hen-la-ji-ba/">
+                  <h3 class="post-title">
+                    Ola指纹锁 用起来真的香么？很垃圾吧。
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
           </div>
+
         </div>
       </div>
     </div>
