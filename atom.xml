@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://oldliuweb.github.io</id>
     <title>老刘的日常 - OldLiu.cc</title>
-    <updated>2020-09-13T12:19:38.940Z</updated>
+    <updated>2020-09-13T12:29:47.413Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://oldliuweb.github.io"/>
     <link rel="self" href="https://oldliuweb.github.io/atom.xml"/>
@@ -16,7 +16,7 @@
         <link href="https://oldliuweb.github.io/post/mei-ge-ren-shen-bian-du-you-yi-tai-tou-shi-xiang-ji-bing-fei-zhi-you-yi-jia-8pro-cai-ke-yi/">
         </link>
         <updated>2020-09-12T21:36:50.000Z</updated>
-        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=583219615&amp;bvid=BV1Hz4y1d7rj&amp;cid=193078380&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"> </iframe>
+        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=583219615&bvid=BV1Hz4y1d7rj&cid=193134526&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"> > </iframe>
 <p>最近很多小伙伴们都关注到了一条热点，就是一加8PRO手机的秋意滤镜可以实现透视效果，经过试验发现，我们身边都有这个功能的设备！</p>
 ]]></content>
     </entry>
